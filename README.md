@@ -1,8 +1,8 @@
-# React + Vite
+# Prácticas obligatorias - Laboratorio de Computación III - React
+**Alumno:** Zucco, Juan Ignacio <br>
+2° año Técnico Universitario en Programación - UTN - 2TUP8
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Enunciados:
+### Práctica 1: https://drive.google.com/file/d/1Skl4ewyzferRMOsGQFgvpc7fK8OvSQpE/view?usp=drive_link
