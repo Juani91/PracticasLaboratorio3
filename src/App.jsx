@@ -1,14 +1,23 @@
-import Table from "./components/table/Table";
-
+import Login from "./components/Login/Login"
 
 function App() {
 
-  const netIncomes = [{id: 1, brand: 'McDonalds', income: 1291283}, {id: 2, brand: 'Burger King', income: 1927361}, {id: 3, brand: 'KFC', income: 1098463}];
+  const validateUserName = (valorHijo) => {
+
+    if (valorHijo.includes('o') || valorHijo.includes('O')) {
+      alert('Por favor, ¡Ingrese nombres de usuario sin la letra "o" u "O"!');
+    } else if (valorHijo === "") {
+      alert('Usuario inválido para registrarse!')
+    }else{
+      alert('Usuario registrado con éxito!')
+    }
+
+  }
 
   return (
     <>
       <div>
-        <Table netIncomes={netIncomes}/>
+        <Login validation={validateUserName} />
       </div>
     </>
   )
